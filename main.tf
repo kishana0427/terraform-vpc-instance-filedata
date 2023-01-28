@@ -86,3 +86,4 @@ resource "aws_instance" "my-vpc-ubuntu" {
 
 
 output "myinstance_ip" {value = aws_instance.my-vpc-ubuntu.public_ip}
+# Hello MRCET ...................
